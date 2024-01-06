@@ -1,0 +1,50 @@
+git ls-tree --full-tree -r HEAD
+git ls-files
+dir
+git status
+git log
+git status --long
+git diff lp.txt
+git diff --staged
+git commit -m "adding lp.txt file"
+git status
+git push origin development
+git branch
+git status
+git show
+git stash
+git branch -a
+git branch -d lpd01
+git branch --list
+git branch 
+git push origin lpd01
+git push origin --delete lpd01
+git branch -a
+git fetch origin
+git branch -a
+git fetch origin
+git pull origin lpd02
+git branch -a
+git branch --list
+git branch 
+git checkout lpd02
+git branch -a
+git checkout development
+git branch -a
+git checkout -b adf_publish_local origin/adf_publish
+git branch -a
+git checkout adf_publish_local
+git branch -a
+git checkout development
+git branch -a
+git checkout adf_publish_local
+git ls-files
+git log --pretty=oneline
+git status
+git branch -a
+git ls-files
+git add .
+git commit -m "adding new branch adf_publish_local to remote"
+git push -u origin adf_publish_local
+doskey /history
+doskey /history >> git_windows_command.txt
